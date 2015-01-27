@@ -15,6 +15,7 @@
 		F91D5EF31A77F7F2000CE1CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91D5EF21A77F7F2000CE1CD /* Images.xcassets */; };
 		F91D5EF61A77F7F2000CE1CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F91D5EF41A77F7F2000CE1CD /* LaunchScreen.xib */; };
 		F91D5F021A77F7F2000CE1CD /* TroyStoryFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5F011A77F7F2000CE1CD /* TroyStoryFourTests.m */; };
+		F91D5F101A780C2C000CE1CD /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = F91D5F0F1A780C2C000CE1CD /* Warrior.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		F91D5EFB1A77F7F2000CE1CD /* TroyStoryFourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyStoryFourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91D5F001A77F7F2000CE1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91D5F011A77F7F2000CE1CD /* TroyStoryFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TroyStoryFourTests.m; sourceTree = "<group>"; };
+		F91D5F0E1A780C2C000CE1CD /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Warrior.h; path = ../Warrior.h; sourceTree = "<group>"; };
+		F91D5F0F1A780C2C000CE1CD /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Warrior.m; path = ../Warrior.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				F91D5EE71A77F7F2000CE1CD /* AppDelegate.m */,
 				F91D5EEC1A77F7F2000CE1CD /* WarriorListViewController.h */,
 				F91D5EED1A77F7F2000CE1CD /* WarriorListViewController.m */,
+				F91D5F0E1A780C2C000CE1CD /* Warrior.h */,
+				F91D5F0F1A780C2C000CE1CD /* Warrior.m */,
 				F91D5EEF1A77F7F2000CE1CD /* Main.storyboard */,
 				F91D5EF21A77F7F2000CE1CD /* Images.xcassets */,
 				F91D5EF41A77F7F2000CE1CD /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				F91D5EE81A77F7F2000CE1CD /* AppDelegate.m in Sources */,
 				F91D5EEB1A77F7F2000CE1CD /* TroyStoryFour.xcdatamodeld in Sources */,
+				F91D5F101A780C2C000CE1CD /* Warrior.m in Sources */,
 				F91D5EEE1A77F7F2000CE1CD /* WarriorListViewController.m in Sources */,
 				F91D5EE51A77F7F2000CE1CD /* main.m in Sources */,
 			);
